@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+h1{
+    width: 10ch;
+}
+
+#parent{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+#child1{
+    width: 200px;
+    height: 200px;
+    background-color: lightseagreen;
+    border: 2px solid black;
+    /* flex-grow: 1; */
+}
+
+#child2{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(44, 32, 178);
+    border: 2px solid black;
+    /* flex-grow: 2; */
+}
+
+#child3{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(98, 255, 0);
+    border: 2px solid black;
+    flex-shrink: 1;
+}
+
+#child4{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(231, 255, 13);
+    border: 2px solid black;
+}
+
+#child5{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(91, 101, 0);
+    border: 2px solid black;
+    
+}
+
+#child6{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(231, 255, 13);
+    border: 2px solid black;
+}
+#child7{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(231, 255, 13);
+    border: 2px solid black;
+}
+
+#child8{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(231, 255, 13);
+    border: 2px solid black;
+}
+
+#child9{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(231, 255, 13);
+    border: 2px solid black;
+}
+
+#child10{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(231, 255, 13);
+    border: 2px solid black;
+}
